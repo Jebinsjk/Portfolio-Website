@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "AI‑Powered Email Security / Phishing Detection",
+      "description": "AI/ML system that analyses email content to detect phishing and suspicious messages with a user‑friendly UI.",
+      "technologies": ["Python", "Machine Learning", "NLP", "Flask", "React"],
+      "link": "https://github.com/Jebinsjk/Gmail-Phishing-Detector-v7",
+      "image": "AI‑Powered Email Security : Phishing Detection.png"
+    },
+    {
+      "title": "Composable Key Exchange Using Device-Independent Quantum Key Distribution and Post-Quantum Cryptography",
+      "description": "Research project implementing a hybrid key exchange protocol combining DI‑QKD and PQC (ML‑KEM‑768) for composable security.",
+      "technologies": ["Quantum Cryptography", "Post‑Quantum Cryptography", "ML‑KEM‑768", "Hybrid Key Exchange", "Security Proofs"],
+      "link": "https://github.com/Jebinsjk/Composable-Key-Exchange-Using-DI-QKD-AND-PQC",
+      "image": "Composable Key Exchange Using Device-Independent Quantum Key Distribution and Post-Quantum Cryptography.png"
+    },
+    {
+      "title": "Image‑Based Data Hiding Using Steganography",
+      "description": "Implemented LSB, DCT, and DWT based steganography techniques for secure image data hiding and analysis.",
+      "technologies": ["Python", "LSB", "DCT", "DWT", "Image Processing", "Steganalysis"],
+      "link": "https://github.com/Jebinsjk/Image-Based-Data-Hiding-Using-LSB-DCT-DWT-with-Python",
+      "image": "Image‑Based Data Hiding Using Steganography.png"
+    }
+  ]
+}

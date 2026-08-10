@@ -1,0 +1,9 @@
+{
+  "programmingLanguages": ["Java", "Python", "C", "JavaScript", "HTML", "CSS", "SQL"],
+  "developmentSkills": ["Software Development", "Object-Oriented Programming", "Data Structures & Algorithms (Fundamentals)", "Git", "GitHub", "React"],
+  "developmentConcepts": ["REST APIs (fundamentals)", "Front-end development", "Debugging", "Problem solving", "Version control"],
+  "cybersecuritySkills": ["Security", "Cybersecurity Fundamentals", "Ethical Hacking", "Network Security", "Web Application Security", "Cryptography", "Vulnerability Assessment", "Digital Forensics", "Malware Analysis", "Steganography"],
+  "cybersecurityTools": ["Kali Linux", "Wireshark", "Metasploit", "SQLMap", "DVWA", "Nmap", "VirusTotal", "Cuckoo Sandbox", "FTK Imager", "Autopsy", "ProDiscover Investigator", "PEiD", "OllyDbg", "IDA Pro"],
+  "networkingCloud": ["Networking fundamentals", "TCP/IP", "IP addressing", "CIDR", "NAT", "Elastic IP", "AWS", "AWS VPC", "AWS Transit Gateway", "Routers", "Network troubleshooting"],
+  "cryptography": ["AES", "DES", "RSA", "MD5", "SHA-512", "Hamming Codes", "Huffman Coding", "LZW", "Cryptographic fundamentals"]
+}
