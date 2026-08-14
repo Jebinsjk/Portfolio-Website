@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { asset } from '../utils/asset';
 
 const Certifications: React.FC = () => {
   const certificationsData = [
-    { title: 'Cyber Job Simulation', provider: 'Deloitte Australia', platform: 'Forage', year: '2026', link: '/Deloitte Australia Cyber Job Simulation - Certificate .pdf' },
-    { title: 'Cybersecurity Professional Certificate', provider: 'Google', platform: 'Google', year: '2026', link: '/ Google Cyber sec Certificate .pdf' },
-    { title: 'Introduction to Cyber Security', provider: 'Great Learning', platform: 'Great Learning', year: '2026', link: '/Jebinskaran Samlin cyber sec.pdf' },
-    { title: 'Prompt Engineering for ChatGPT', provider: 'Great Learning', platform: 'Great Learning', year: '2026', link: '/Jebinskaran Samlin- AI prompt certificate .pdf' }
+    { title: 'Cyber Job Simulation', provider: 'Deloitte Australia', platform: 'Forage', year: '2026', link: asset('Deloitte Australia Cyber Job Simulation - Certificate .pdf') },
+    { title: 'Cybersecurity Professional Certificate', provider: 'Google', platform: 'Google', year: '2026', link: asset(' Google Cyber sec Certificate .pdf') },
+    { title: 'Introduction to Cyber Security', provider: 'Great Learning', platform: 'Great Learning', year: '2026', link: asset('Jebinskaran Samlin cyber sec.pdf') },
+    { title: 'Prompt Engineering for ChatGPT', provider: 'Great Learning', platform: 'Great Learning', year: '2026', link: asset('Jebinskaran Samlin- AI prompt certificate .pdf') }
   ];
 
   return (

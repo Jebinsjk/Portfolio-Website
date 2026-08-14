@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, useTransform, MotionValue, useReducedMotion } from 'framer-motion';
+import { asset } from '../utils/asset';
 
 /**
  * HeroPortrait
@@ -189,7 +190,7 @@ const HeroPortrait: React.FC<HeroPortraitProps> = ({ scrollYProgress }) => {
             }}
           >
             <img
-              src="/IMG_0865.PNG"
+              src={asset('IMG_0865.PNG')}
               alt="Jebinskaran Samlin"
               style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
             />

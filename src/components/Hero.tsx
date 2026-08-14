@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
 import { FiArrowDown } from 'react-icons/fi';
 import HeroPortrait from './HeroPortrait';
+import { asset } from '../utils/asset';
 import './Hero.scss';
 
 const Hero: React.FC = () => {
@@ -137,7 +138,7 @@ const Hero: React.FC = () => {
               <motion.a 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/JebinsKaran__Resume.pdf" 
+                href={asset('JebinsKaran__Resume.pdf')} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-primary" 
@@ -148,7 +149,7 @@ const Hero: React.FC = () => {
               <motion.a 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/JebinsKaran__Resume.pdf" 
+                href={asset('JebinsKaran__Resume.pdf')} 
                 download="JebinsKaran__Resume.pdf" 
                 className="btn btn-secondary" 
                 data-cursor="text:DOWNLOAD"

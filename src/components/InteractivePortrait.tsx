@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useReducedMotion, useSpring } from 'framer-motion';
+import { asset } from '../utils/asset';
 
 /**
  * InteractivePortrait (About-side)
@@ -192,7 +193,7 @@ const InteractivePortrait: React.FC = () => {
               }}
             >
               <img
-                src="/IMG_0865.PNG"
+                src={asset('IMG_0865.PNG')}
                 alt="Jebinskaran Samlin"
                 style={{
                   width: '100%',

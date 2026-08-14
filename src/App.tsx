@@ -52,14 +52,14 @@ function App() {
           <CustomCursor />
           <Navbar />
           <main>
-            <section id="hero"><Hero /></section>
-            <section id="about"><About /></section>
-            <section id="education"><Education /></section>
-            <section id="skills"><Skills /></section>
-            <section id="experience"><Experience /></section>
-            <section id="projects"><Projects /></section>
-            <section id="certifications"><Certifications /></section>
-            <section id="contact"><Contact /></section>
+            <Hero />
+            <About />
+            <Education />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Certifications />
+            <Contact />
           </main>
           <Footer />
         </div>

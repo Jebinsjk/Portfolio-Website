@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useMotionValue, useTransform, useScroll } from 'framer-motion';
 import projectsData from '../data/projects.json';
+import { asset } from '../utils/asset';
 
 const ProjectCard: React.FC<{ project: any; index: number }> = ({ project, index }) => {
   const isEven = index % 2 === 0;
@@ -76,7 +77,7 @@ const ProjectCard: React.FC<{ project: any; index: number }> = ({ project, index
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
           <motion.img 
-            src={`/${project.image}`}
+            src={asset(project.image)}
             alt={project.title}
             style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', scale: scaleImg }}
             onError={(e) => {

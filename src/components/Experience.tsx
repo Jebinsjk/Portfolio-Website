@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import { asset } from '../utils/asset';
 
 const Experience: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -110,7 +111,7 @@ const Experience: React.FC = () => {
                   filter: useTransform(lineScale, [0, 0.5, 1], ['grayscale(100%)', 'grayscale(0%)', 'grayscale(0%)']),
                 }}>
                   <img 
-                    src="/Intership ID - Card.png" 
+                    src={asset('Intership ID - Card.png')} 
                     alt="Internship ID Card" 
                     style={{ 
                       width: '100%', 
