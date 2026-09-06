@@ -3,7 +3,7 @@
  * resolve correctly on both localhost (base = '/') and GitHub Pages
  * (base = '/Portfolio-Website/').
  *
- * Usage:  src={asset('IMG_0865.PNG')}
+ * Usage:  src={asset('scenes/home.jpg')}
  *         href={asset('JebinsKaran__Resume.pdf')}
  */
 export const asset = (path: string) =>
