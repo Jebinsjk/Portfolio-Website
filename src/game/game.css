@@ -241,7 +241,7 @@ img {
   pointer-events: auto;
 }
 
-/* ---- BYTE CITY brand logo (top-left) ---- */
+/* ---- JK Portfolio brand logo (top-left) ---- */
 .jk-logo-slot {
   position: absolute;
   top: var(--edge);
@@ -281,12 +281,12 @@ img {
   display: block;
   width: fit-content;
   margin-top: -0.02em;
-  margin-left: 1.35em;
+  margin-left: 0.6em;
   padding-bottom: 11px;
   font-family: 'Yellowtail', 'Kaushan Script', 'Brush Script MT', cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(23px, 2.9vw, 43px);
+  font-size: clamp(20px, 2.3vw, 34px);
   line-height: 0.9;
   letter-spacing: 0.005em;
   text-transform: none;
@@ -296,7 +296,7 @@ img {
   text-shadow: 0 0 6px #ff3fa0, 0 0 14px rgba(255, 46, 136, 0.9), 0 0 30px rgba(255, 46, 136, 0.55),
     0 0 54px rgba(255, 46, 136, 0.3), 0 1px 2px rgba(0, 0, 0, 0.45);
 }
-/* long flowing neon swoosh trailing under "City" */
+/* long flowing neon swoosh trailing under "Portfolio" */
 .jk-logo__sub::after {
   content: '';
   position: absolute;
